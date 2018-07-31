@@ -17,6 +17,6 @@ class Countofnumbers
 			n=n/10;
 			count++;
 		}
-		System.out.println("count:"+count);
+		System.out.println(count);
 	}
 }
