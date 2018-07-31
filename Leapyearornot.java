@@ -1,16 +1,23 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Simpleprogram1
+class Leapyearornot
 {
 	public static void main(String args[])
 	{
-		if(n%4==0)
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		if(n%4==0&&n%100!=0)
 		{
-			System.out.println("leapyear");
+			System.out.println("yes");
 		}
-		else{
-			System.out.println("notleapyear");
-		    }
+		else if(n%400==0)
+		{
+			System.out.println("yes");
+		}
+		else
+		{
+			System.out.println("no");
+		}
 	}
 }
