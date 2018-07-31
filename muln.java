@@ -15,7 +15,8 @@ class muln
 		for(int i=1;i<=d;i++)
 		{
 				int mul=n*i;
-				System.out.print(mul+" ");
+				System.out.print(mul);
+				System.out.println();
 		} 
 	}
 }
