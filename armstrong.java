@@ -9,13 +9,13 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		  int  number, temp, total = 0;
+		  int  number,temp,total=0;
 			Scanner sc=new Scanner(System.in);
 			int num=sc.nextInt();
 			  number=num;
-        	while (number != 0)
+        	while (number!=0)
         {
-            temp=number % 10;
+            temp=number%10;
             total=total+temp*temp*temp;
             number=number/10;
         }
