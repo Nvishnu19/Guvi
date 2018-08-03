@@ -20,7 +20,7 @@ class Palindrome
         n = n/10;
     }
     if (i==a)
-        System.out.println(" yes");
+        System.out.println("yes");
     else
         System.out.println("no");
     
