@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 
-  int start,end,i;
+  int i;
  Scanner sc=new Scanner(System.in);
 int min=sc.nextInt();
 int max=sc.nextInt();
