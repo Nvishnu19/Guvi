@@ -14,7 +14,7 @@ class Ideone
 		int min,hr;
 		min= time%60; 
 		hr=(time-min)/60; 
-		System.out.println(hr+""+min);
+		System.out.println(hr+" "+min);
 
 	}
 }
