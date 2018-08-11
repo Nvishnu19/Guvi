@@ -17,7 +17,7 @@ int max=sc.nextInt();
   for(i=min;i<=max;i++)
   {
     if(i%2!=0)
-      System.out.println(i);
+      System.out.print(i+" ");
   }
 }		
 	}
