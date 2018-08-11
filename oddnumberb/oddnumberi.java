@@ -14,7 +14,7 @@ class Ideone
  Scanner sc=new Scanner(System.in);
 int min=sc.nextInt();
 int max=sc.nextInt();
-  for(i=min;i<=max;i++)
+  for(i=min+1;i<=max;i++)
   {
     if(i%2!=0)
       System.out.print(i+" ");
