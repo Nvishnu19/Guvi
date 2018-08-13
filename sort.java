@@ -1,6 +1,6 @@
 /* package whatever; // don't place package name! */
 
-import java.util.Array;
+import java.util.Arrays;
 import java.lang.*;
 import java.io.*;
 
