@@ -17,7 +17,7 @@ class Ideone
 			a[i]=sc.nextInt();
 		}
 		Arrays.sort(a);
-		System.out.println(a[0]);
+		System.out.println(a[0]+" ");
 		System.out.println(a[n-1]);
 	}
 }
