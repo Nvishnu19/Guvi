@@ -10,10 +10,9 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		float l=sc.nextFloat();
-		float b=sc.nextFloat();
-		float area=l*b;
-		String areaAsString = String.format ("%.5f",area);
-	    System.out.println(areaAsString);
+		double l=sc.nextDouble();
+		double b=sc.nextDouble();
+		double area=l*b;
+	    System.out.format("%.5f",area);
 	}
 }
