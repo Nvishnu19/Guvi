@@ -16,8 +16,8 @@ class Ideone
  	{ 
    		int left = (int) (n % 10);
    		if(left % 2 != 0)    
-     	output = left+" " + output;
-     	n /= 10;
+     		output = left+" "+output;
+     		n /= 10;
 	}
 		System.out.println(output);
  	}	
