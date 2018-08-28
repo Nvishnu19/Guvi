@@ -11,11 +11,14 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int i=sc.nextInt();
-		int n1=sc.nextInt();
-		int n2=sc.nextInt();
+		int n1=1;n2=10;
  		if(i>=n1&&i<=n2)
+		{
 					System.out.println("yes");    
+		}
 		else
+		{
 					System.out.println("no");
-				}
+		}
+	}
 }
